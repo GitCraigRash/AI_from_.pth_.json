@@ -1,7 +1,17 @@
-#Donwlaod libraries
+Should I:
 
-#Define layers
+# Recreate the model I have. IGNORE
+# Create new model so I don't have to put it back together from .pth and .json IGNORE
 
-#Generate model
 
-#Place model in correct location
+# figure out how to tell Grok what the structure for the parent model is. SOLVED
+  ## Create new model using Lab 3
+  ## Just tell it the .json
+  
+# Figure out what the student model architecture should be. DOING
+  ## Make sure Grok knows block 1 does batch inference.
+  ## Make sure Grok knows the starting inputs, expansion factor, kernal,  stride, padding, and output channel counts
+  ## Get Grok to proudce one based on parent model
+
+# Learn how to do knowledge distillation with a model that has batch inference to a smaller model. TODO
+# Iterate
